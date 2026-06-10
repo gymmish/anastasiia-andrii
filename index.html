@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andrii&Anastasiia</title>
+    <meta property="og:title" content="Весільне пре-запрошення: Анастасії та Андрія – ???? серпня 2026 року">
+    <meta property="og:image" content="https://simple-wedding-invitation.dae.ng/image/samantha-gades-x40Q9jrEVT0-unsplash.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->  
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Час
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Місце
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#dresscode">
+                  Дрес-код
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  Підтвердження
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="petals"> </div>
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Пре-запрошення на весілля</h1>
+            <div class="divider">
+  <span></span>
+  <span class="heart">❤</span>
+  <span></span></div>
+    <div class="family-wrapper">
+      <img src="image/Family1.png" alt="" class="family-img">
+    </div> 
+
+      <h2 class="names">
+  <span class="name name-left">Анастасія</span>
+  <span class="amp">&</span>
+  <span class="name name-right">Андрій</span>
+</h2>
+            <h4 class="subtitle tempatwaktu">
+              
+                Субота, 15 Серпня 2026 
+                </br>
+                [Київ]
+                </br>
+            </h4>
+          </div>
+
+          <!-- Start Countdown -->       
+          <div>
+          <ul id="hitungmundur">
+            <li><span class="days">00</span><p class="days_text">днів</p></li>
+            <li class="heart-hit">♥</li>
+            <li><span class="hours">00</span><p class="hours_text">годин</p></li>
+            <li class="heart-hit">♥</li>
+            <li><span class="minutes">00</span><p class="minutes_text">хвилин</p></li>
+            <li class="heart-hit">♥</li>
+            <li><span class="seconds">00</span><p class="seconds_text">секунд</p></li>
+          </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '08/15/2026 12:00:00';
+
+$('#hitungmundur').countdown({
+  date: harih,
+  offset: 3,
+
+  day: 'день',
+  days: 'днів',
+  hour: 'година',
+  hours: 'годин',
+  minute: 'хвилина',
+  minutes: 'хвилин',
+  second: 'секунда',
+  seconds: 'секунд'
+});
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Головна</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Час</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Місце</a>
+                  </li>
+                  <li>
+                    <a href="#dresscode">Дрес-код</a>
+                  </li>
+
+                  <li>
+                    <a href="#rsvp">Підтвердження</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+  <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+
+    <div class="invite-card">
+
+        <div class="invite-text">
+
+            <p class="bodytext" data-aos="fade-up">
+                Запрошуємо вас розділити з нами
+                <br>
+                один із найважливіших днів нашого життя
+            </p>
+            <p class="bodytext" data-aos="fade-up">
+                Для нас це особливий момент,
+                який хочеться прожити разом із найближчими людьми.
+                <br><br>
+                Ми мріємо створити атмосферу тепла,
+                щирих усмішок і радості,
+                яка залишиться у пам’яті назавжди.
+            </p>
+            <p class="bodytext" data-aos="fade-up">
+                Будемо щасливі провести цей день разом з вами
+            </p>
+            <div class="love-divider"></div>
+            <p class="subtext" data-aos="fade-up">
+                <span>любов.</span> <span>тепло.</span> <span>щасливі момент.</span>
+            </p>
+        </div>
+        <div class="table-decoration" data-aos="fade-up">
+            <img src="image/dance.png" alt="" class="img-table">
+        </div>
+
+    </div>
+
+</section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Waktu Section -->
+      <section class="section-dark" id="Waktu">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Дата проведення</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-4 has-vertically-aligned-content">
+              <p class="is-larger has-text-centered">
+                  <div class="waktu-label tanggal-hari has-text-centered">Субота</div> 
+                  <div class="waktu-label tanggal-angka has-text-centered">15.08.2026</div>
+              </p>
+            
+            </div>
+<div class="column is-4">
+
+  <div class="date-block">
+    <div class="waktu-label">Церемонія</div>
+    <div class="waktu-time">13:00</div>
+  </div>
+
+</div>
+
+<div class="column is-4 has-vertically-aligned-content">
+
+  <div class="waktu-label tanggal-hari has-text-centered">
+    Святкова частина
+  </div>
+
+  <div class="waktu-time has-text-centered">
+    14:00 – 22:00
+  </div>
+
+</div>
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+    <a href="calendar/calendar.ics" class="button btn-cta">
+  <i class="far fa-calendar-plus"></i>
+  &nbsp;&nbsp;Додати в календар
+</a>       
+      </div>
+      </section>
+      <!-- End Waktu Content -->
+
+      <!-- Begin Lokasi Section -->
+      <section class="section-darker" id="lokasi">
+  <div class="container">
+
+    <div class="column is-12 regular-section" data-aos="fade-up">
+      <h1 class="title has-text-centered section-title">Локація</h1>
+
+      <p class="bodytext">
+        <strong class="bodytext title-location">Sobi Club</strong>
+        <br>
+        Вишгородський район, Київська область
+        <br>
+        заміський комплекс біля Київського моря
+      </p>
+    </div>
+
+    <div class="section-map" data-aos="fade-up">
+<img src="image/map.png" alt="Map" />
+    </div>
+    <div class="space40px"></div>
+    <div class="has-text-centered" data-aos="fade-up">
+      <a href="https://www.google.com/maps/search/?api=1&query=Sobi+Club+Kyiv"
+        class="button btn-cta"
+        target="_blank">
+        <i class="fas fa-map-marker-alt"></i>
+        &nbsp;&nbsp;Відкрити карту
+      </a>
+    </div>
+  </div>
+</section>
+      <!-- End Lokasi Content -->
+
+      <!-- Begin Tentang [Calon Mempelai Wanita] and [Calon Mempelai [Pria] -->
+<section class="section-light regular-section has-text-centered" id="dresscode">
+  <div class="container">
+
+    <h1 class="title section-title" data-aos="fade-up">
+      Дрес-код
+    </h1>
+
+    <p class="bodytext" data-aos="fade-up">
+    Обіцяємо: ніякого дрес-коду і ніяких перевірок на вході   
+Приходьте так, як вам хочеться — нам важливіші ви, ніж кольори.
+    </p>
+    <p class="subtext" data-aos="fade-up" style="color: #B7C3D9;">Ці кольори — лише як натхнення,  
+якщо вам захочеться підтримати атмосфер</p>
+    <div class="color-palette grid" data-aos="fade-up">
+<span class="color" style="background:#E6C3CF;"></span>
+<span class="color" style="background:#EADADA;"></span>
+<span class="color" style="background:#E9D2C9;"></span>
+<span class="color" style="background:#DDB9B8;"></span>
+<span class="color" style="background:#D6B8B5;"></span>
+<span class="color" style="background:#CBB6C8;"></span>
+<span class="color" style="background:#D8C6D8;"></span>
+<span class="color" style="background:#C9A8C2;"></span>
+<span class="color" style="background:#E7C6B8;"></span>
+<span class="color" style="background:#E3B6A3;"></span>
+<span class="color" style="background:#E7B97E;"></span>
+<span class="color" style="background:#E4B86E;"></span>
+<span class="color" style="background:#E8DFA4;"></span>
+<span class="color" style="background:#F0E3A6;"></span>
+<span class="color" style="background:#E6E4B0;"></span>
+<span class="color" style="background:#EFE2B7;"></span>
+<span class="color" style="background:#E9E2C7;"></span>
+<span class="color" style="background:#DCD59A;"></span>
+<span class="color" style="background:#C9D0A5;"></span>
+<span class="color" style="background:#B5C297;"></span>
+<span class="color" style="background:#B9C6A3;"></span>
+<span class="color" style="background:#A8B79A;"></span>
+<span class="color" style="background:#C3C6B8;"></span>
+<span class="color" style="background:#D5DED3;"></span>
+<span class="color" style="background:#CAD6D2;"></span>
+<span class="color" style="background:#9FAFB2;"></span>
+<span class="color" style="background:#8FA7A1;"></span>
+<span class="color" style="background:#9BB1C6;"></span>
+<span class="color" style="background:#B7C3D9;"></span>
+<span class="color" style="background:#AFC0D4;"></span>
+<span class="color" style="background:#C1CBD5;"></span>
+<span class="color" style="background:#D5DCE2;"></span>
+<span class="color" style="background:#E8D6F0;"></span> 
+<span class="color" style="background:#F2D6E6;"></span> 
+<span class="color" style="background:#D9B8E3;"></span> 
+<span class="color" style="background:#BFA7D6;"></span> 
+</div>
+  </div>
+</section>
+      <!-- End Tentang [Calon Mempelai Wanita] and [Calon Mempelai [Pria] -->
+
+      <!-- Begin RSVP Content -->
+<section class="section-dark contact" id="rsvp">
+  <div class="container">
+    <div class="columns is-multiline">          
+
+      <div class="column is-12 prolog">
+        <h1 class="title has-text-centered section-title" data-aos="fade-up">
+          Підтвердження
+        </h1>
+      </div>
+
+      <div class="column is-12 has-text-centered">
+
+        <!-- ТЕКСТ -->
+        <p class="bodytext">
+          Ми вже почали готуватись і зрозуміли,
+          що настав момент рахувати гостей 
+          <span class="subtext" style="color: #B9C6A3;">(і нікого не залишити без місця чи келиха 🥂)</span>
+        </p>
+
+        <p class="bodytext">
+          Зараз триває підготовка, і нам дуже важливо розуміти,
+          хто зможе бути поруч у цей день,
+          а також хто залишиться на другий 
+          щоб зробити його максимально комфортним і приємним для всіх 
+        </p>
+
+        <p class="bodytext">
+          Другий день — більш неформальний:
+          з відпочинком, басейном і просто гарним часом разом 
+        </p>
+
+        <p class="bodytext">
+          Обіцяємо: офіційне красиве запрошення ще попереду  
+          А поки що — це наш ніжний спосіб все організувати без хаосу 
+        </p>
+
+        <p class="subtext" style="color: #B5C297; ">
+          Це займе буквально хвилинку 
+        </p>
+
+        <!-- Form -->
+<form id="rsvp-form">
+  <input type="text" name="name1" placeholder="Ваше ім’я та Прізвище" required>
+<!-- attendance -->
+  <div class="custom-select">
+    <input type="hidden" name="attendance" required>
+    <div class="select-selected">
+      Чи будете присутні?
+    </div>
+    <div class="select-items">
+      <div data-value="Так, будемо 🎉">Так, будемо 🎉</div>
+      <div data-value="На жаль, ні 😢">На жаль, ні 😢</div>
+    </div>
+  </div>
+    <!-- attendance -->
+  <div id="attendance-details">
+  <div class="custom-select">
+    <input type="hidden" name="withPartner" required>
+
+    <div class="select-selected">
+      Ви будете з парою?
+    </div>
+    <div class="select-items">
+      <div data-value="Так">Так </div>
+      <div data-value="Ні 😢">Ні</div>
+    </div>
+  </div>
+  <div id="partner-field" style="display:none;">
+    <input type="text" name="name2" placeholder="Ім’я пари">
+  </div>
+    
+  <!-- sleep -->
+  <div class="custom-select">
+    <input type="hidden" name="sleep" required>
+
+    <div class="select-selected">
+      Чи потрібне місце для ночівлі?
+    </div>
+
+    <div class="select-items">
+      <div data-value="Так">Так</div>
+      <div data-value="Ні">Ні</div>
+    </div>
+  </div>
+
+  <!-- pool -->
+  <div class="custom-select">
+    <input type="hidden" name="pool" required>
+
+    <div class="select-selected">
+      Другий день біля басейну?
+    </div>
+
+    <div class="select-items">
+      <div data-value="Так 😄">Так 😄</div>
+      <div data-value="Ні">Ні</div>
+    </div>
+  </div>
+  </div>
+  <button type="submit" class="btn-cta">Надіслати ❤</button>
+</form>
+
+        <p id="success-message" style="display:none;">
+          Дякуємо!❤
+        </p>
+
+      </div>
+    </div>
+  </div>
+  <div class="pet-img">  
+    <img src="image/lastimg.png" alt="Flower" />
+  </div>
+</section>
+<!-- End RSVP Content -->
+  
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+          <p class="subtext">Обмнімаємо кожного з вас !!! Ваші Андрій і Настя </p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+     <script src="js/petal.js"></script>
+     <script src="js/rsvp.js"></script>
+  </body>
+</html>

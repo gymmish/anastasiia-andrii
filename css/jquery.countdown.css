@@ -1,0 +1,55 @@
+#hitungmundur {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+#hitungmundur li {
+  list-style: none;
+}
+
+#hitungmundur li:not(.heart-hit) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hitungmundur span {
+  font-family: "Shantell Sans", cursive;
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 500;
+  color: #5b5b5b;
+}
+
+#hitungmundur p {
+  margin-top: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #b8aba5;
+}
+
+/* сердечка */
+
+.heart-hit {
+  font-size: 22px;
+  line-height: 58px;
+  margin: 0 2px;
+}
+
+#hitungmundur li:nth-child(2) {
+  color: #d78daa;
+}
+
+#hitungmundur li:nth-child(4) {
+  color: #b8bc7f;
+}
+
+#hitungmundur li:nth-child(6) {
+  color: #b39be8;
+}
